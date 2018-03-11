@@ -1,0 +1,14 @@
+{
+  "name": "yarn-install-link",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": "git+ssh://git@github.com:akloeber/yarn-install-link.git",
+  "author": "Andreas Klöber",
+  "license": "MIT",
+  "dependencies": {
+    "sub": "link:./sub/"
+  }
+}
